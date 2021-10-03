@@ -20,7 +20,7 @@ void luku_luokka::kysy_outo_algoritmi_luku()
 void luku_luokka::nayta_outo_algoritmi_luvut()
 {
 	cout << luku << " ";	
-	while (luku!=1)
+	while (luku != 1)
 	{
 			
 		if (luku % 2 == 0) { luku = luku / 2; }
