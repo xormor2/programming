@@ -23,7 +23,7 @@ void luku_luokka::nayta_outo_algoritmi_luvut()
 	while (luku!=1)
 	{
 			
-		if (luku %2 == 0) { luku = luku / 2; }
+		if (luku % 2 == 0) { luku = luku / 2; }
 		else { luku = luku * 3 + 1; }
 		cout << luku << " ";
 	}
